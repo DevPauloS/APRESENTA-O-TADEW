@@ -1,0 +1,136 @@
+*{ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+}
+body{
+    font-size: 100%;
+    background-color: #1e0866;
+    font-family: 'Arial', sans-serif;
+}
+.topo{
+    display: flex;  
+    justify-content:space-between;
+    gap: 3rem; 
+    align-items: center;   
+    padding: 1em;
+    margin: 1em;
+    border-bottom: 0.4px solid #fff; 
+}
+.menu{
+    display: flex;
+    gap: .8em;
+}
+.menu-img{
+    height: 3em;  
+}
+.menu-item{
+    color: #ffffff;    
+    font-size: 1.3em;
+}
+.cabecalho{      
+    align-items: center;
+    justify-content: space-around; 
+    margin: 2em 1em 0;      
+} 
+.cabecalho-perfil-foto{  
+    justify-content: space-around;
+    height: 9em;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+.cabecalho-perfil-titulo{
+    color:#fff;  
+    margin: 10px 0px;     
+}
+.center{
+    text-align: center;
+}
+.cabecalho-perfil-subtitulo{
+    padding: 2px;
+}
+.conteudo{
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.subtitulo{
+    margin: 10px 0px;
+    font-size: 1.1em;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.4px solid #fff;
+}
+.rodape-imagem{
+    height: 2em;
+    margin: 1em;
+    border-radius:25%;
+}
+.secao{
+    margin: 2em 2em;
+}
+
+.secao-contato{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    border: 1px solid #fff;
+    padding: 4em
+}
+#secao-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+.conteudo-contato{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+#botao-contato{
+    height: 2.5em;
+    width: 6em;
+    font-weight: 700;
+    background-color: #fff;
+    margin-left: 6.5em;
+    margin-top: 2.5em;
+    color: #000000;
+}
+#campo-texto-label1,
+#campo-texto-label2,
+#campo-texto-label3{
+    display: flex;
+    flex-direction: column;    
+}
+
+#campo-texto-assunto,
+#campo-texto-email{
+    width: 20em;
+    height: 2em;
+    color: #000000;
+    font-weight: 700;
+    padding: 0.3em;
+}
+
+#campo-texto-descricao{
+    min-width: 20em;
+    max-width: 20em;
+    min-height: 12em;
+    max-height: 12em;
+    color: #000000;
+    font-weight: 700;
+    padding: 0.3em;
+}
+ul{
+    list-style-type: none;
+    margin-top: 1em;    
+    gap: 5em;
+}

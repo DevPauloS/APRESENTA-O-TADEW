@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Roboto',sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(https://www.dicasdemulher.com.br/wp-content/uploads/2021/06/tortas-doces-1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fee01e;
+    height: 3em;    
+}
+header img{
+    width: 4em;     
+}
+header nav{
+    display: flex;     
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+header nav ul li{   
+    list-style: none;
+    text-decoration: none;    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #6c472d;    
+    font-size: 0.8em;
+    font-weight: 600;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25em;    
+}
+.conteudo-cadastro-img{
+    width: 5em;
+    justify-content: center;
+    margin-bottom: 1.2em;
+}
+.conteudo-cadastro{
+    width: 18em;
+    height: 24em;
+    background-color: #fee01e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    color: #6c472d;
+    margin-top: 10em;
+    gap: 0.3em;
+    box-shadow: 2px 2px #f5edb5;    
+}
+.conteudo-cadastro-titulo{
+    margin-bottom: 0.5em;
+}
+.cadastro-item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;    
+    list-style: none;    
+}
+.check{
+    margin: 0.5em;
+}
+.botao-cadastro{  
+    padding: 0.4em;
+    width: 9em;
+    margin-top: 0.4em;    
+    color: #6c472d;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+footer{
+    height: 20em;    
+}
+.conteudo-login{
+    width: 25em;
+    height: 25em;
+    background-color: #fee01e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    color: #6c472d;
+    margin-top: 8em;
+    gap: 0.3em;
+    box-shadow: 2px 2px #f5edb5; 
+    
+}
+.conteudo-login-titulo{
+    color: #6c472d;
+    font-weight: 700;
+    margin-bottom: 0.7em;
+}
+
+.botao-login{
+    padding: 0.5em 0.5em;
+    margin-top: 1em;
+    color: #6c472d;
+}
+.esqueceu{
+    margin-top: 1em;
+    font-size: 0.6em;
+    text-decoration: none;
+    color:#6c472d;
+    font-weight: 700;
+}
+.cadastrar{
+    margin-top: 1em;
+    font-size: 0.6em;
+    text-decoration: none;
+    color: #6c472d;
+    font-weight: 700;
+}
